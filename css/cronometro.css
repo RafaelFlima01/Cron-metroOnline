@@ -71,6 +71,7 @@ h3{
     cursor: pointer;
     width: 4.5rem;
     text-align: center;
+    font-size: 1em;
 }
 #button:hover{
     box-shadow: rgba(50, 50, 93, 0.5) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.5) 0px 18px 36px -18px inset;
@@ -87,6 +88,7 @@ h3{
     cursor: pointer;
     width: 4.5rem;
     margin-top: 10px;
+    font-size: 1em;
 }
 #button2:hover{
     box-shadow: rgba(50, 50, 93, 0.5) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.5) 0px 18px 36px -18px inset;
