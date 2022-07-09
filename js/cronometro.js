@@ -12,7 +12,7 @@ var secAtu;
 for(var i = 0; i <=60; i++){
     min.innerHTML+='<option value="'+i+'">'+i+'</option>';
 }
-for(var i = 1; i <=60; i++){
+for(var i = 0; i <=60; i++){
     sec.innerHTML+='<option value="'+i+'">'+i+'</option>';
 }
 
@@ -26,6 +26,11 @@ butn.addEventListener('click', function(){
     res.innerHTML=`${minAtu}:${secAtu}`
 
     clique--
+    
+    if(secAtu == 0 && minAtu ==0){
+        alert("Adicione algum valor para que possa iniciar o Cronômetro")
+        return
+    }
 
     if(clique == 0){
         butn.disabled=true
