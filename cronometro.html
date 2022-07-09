@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronômetro</title>
+    <link rel="stylesheet" href="css/cronometro.css">
+</head>
+<body>
+    <audio id="audio" display="none" src="audios/alarme.mp3"></audio>
+    <div id="main">
+        <section id="crono" >
+            <div id="titulo">
+                <code>
+                    <h1>Cronómetro Online</h1>
+                </code>
+            </div>
+            <div id="superior">
+                <code>
+                    <span>Minutos: 
+                        <select name="min" id="minutos"></select>
+                    </span>
+                    <span>Segundos: 
+                        <select name="sec" id="segundos"></select>
+                    </span>
+                </code>
+            </div>
+            <div id="inferior">
+                <code>
+                    <h3>Tempo Restante </h3>
+                </code>
+                <code>
+                    <p id="res">0:0</p>
+                </code>
+                <div id="buttons">
+                    <button id="button">Iniciar</button>
+                    <button onclick="zerar()" id="button2">Zerar</button>
+                </div>
+            </div>
+        </section>
+        <div id="copy">
+            <p>&copy;Defire</p>
+        </div>
+    </div>
+</body>
+<script src="js/cronometro.js"></script>
+</html>
