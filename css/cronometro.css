@@ -42,10 +42,6 @@ select::-webkit-scrollbar{
 select::-webkit-scrollbar-thumb{
     background-color: rgba(14, 55, 145, 0.925);
 }
-option:hover{
-    color:blue !important;
-}
-
 #inferior{
     display: flex;
     align-items: center;
